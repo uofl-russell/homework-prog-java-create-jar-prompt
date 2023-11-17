@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Verify Test.jar Exists",
+      "setup": "",
+      "run": "ls Test.jar",
+      "input": "",
+      "output": "Test.jar",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Verify Program Compiles and Prints Correct Statement",
+      "setup": "",
+      "run": "java -jar Test.jar",
+      "input": "",
+      "output": "Java Is Really Awesome!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
